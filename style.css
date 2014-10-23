@@ -1,0 +1,72 @@
+body {
+	background-color:black;
+	color:gray;
+	margin:300px;
+	margin-top:20px;
+	padding 20 px;
+
+ 	background: white;
+}
+p{
+	color:gray;
+}
+a{
+	color:orange;
+}
+
+
+h1 {
+	color:gainsboro;
+	text-align:center;
+	font-size: 50px;
+	
+}
+h2{
+	color:white;
+}
+a:hover{
+	color:white;
+}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
+#panel{
+	
+
+	background-color: rgba(0,0,0,.70);
+	border-style: solid;
+    border-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-radius: 10px;
+    border-color: white;
+
+	transform: rotate(0deg) ;
+
+}
+
+
+#navigation {
+    position: relative;
+	background-color:gray;
+	text-align:center;
+}
+#navigation a:hover{
+	transition: background-color .5s linear 0;
+	
+}
+
+#content {
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+li { display: inline;
+     
+}
+
+footer{
+	text-align:right;
+}
